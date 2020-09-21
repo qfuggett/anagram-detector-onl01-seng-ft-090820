@@ -9,10 +9,10 @@ class Anagram
     @word
   end
   
-  def match(array)
+  def match(word)
     binding.pry
     # @array = [ ]
-    # unless @array.include?(array)
+    # unless @array.include?(word)
     #   @array = [ ]
     # else                          #does array has same letters as @array elements?
     #   binding.pry
