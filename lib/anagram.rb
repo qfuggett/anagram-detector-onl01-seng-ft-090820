@@ -14,16 +14,16 @@ class Anagram
     unless string.include? @word
       @array = [ ]
     end
-    # else                          #does array has same letters as @array elements?
-    #   binding.pry
-    #   string.collect do |element|
+    else                          #does array has same letters as @array elements?
+      binding.pry
+      string.collect do |element|
         
         
         
-    #   end
+      end
       
-    #   @array << array
-    # end
+      @array << array
+    end
     
   end
   
