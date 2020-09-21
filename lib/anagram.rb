@@ -9,18 +9,9 @@ class Anagram
   end
   
   def match(string)
-   # @array = [ ]
-    # unless string.include? @word
-    #   @array = [ ]
-    # else                          #does array has same letters as @array elements?
-      string.select do |element|
+   string.select do |element|
         element.split("").sort == word.split("").sort   #splits into letters and then sorts alphabetically
-        
-        
       end
-      
-    #end
-    
   end
   
 end
