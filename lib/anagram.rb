@@ -14,5 +14,7 @@ class Anagram
     else
       @array << array
     end
+    
+  end
   
 end
