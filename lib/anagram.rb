@@ -15,7 +15,6 @@ class Anagram
       @array = [ ]
     end
     else                          #does array has same letters as @array elements?
-      binding.pry
       string.collect do |element|
         
         
