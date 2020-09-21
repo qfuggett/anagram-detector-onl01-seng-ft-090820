@@ -4,11 +4,11 @@ class Anagram
   
   def initialize(word)
     @word = word
-    
+    @word
   end
   
   def match(array)
-    
+    @array = [ ]
     
   end
   
