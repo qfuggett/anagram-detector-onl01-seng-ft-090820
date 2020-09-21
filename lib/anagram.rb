@@ -12,6 +12,8 @@ class Anagram
     unless @array.include?(array)
       @array = [ ]
     else                          #does array has same letters as @array elements?
+      @array.each do 
+      
       @array << array
     end
     
