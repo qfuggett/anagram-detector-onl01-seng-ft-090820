@@ -13,7 +13,6 @@ class Anagram
     @array = [ ]
     unless string.include? @word
       @array = [ ]
-    end
     else                          #does array has same letters as @array elements?
       string.collect do |element|
         element.split("").sort == element.split("").sort
