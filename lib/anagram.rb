@@ -9,7 +9,7 @@ class Anagram
   
   def match(array)
     @array = [ ]
-    
+    @array << array
   end
   
 end
