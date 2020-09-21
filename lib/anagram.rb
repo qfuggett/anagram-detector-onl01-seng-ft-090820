@@ -9,7 +9,7 @@ class Anagram
   end
   
   def match(string)
-    # @array = [ ]
+   # @array = [ ]
     # unless string.include? @word
     #   @array = [ ]
     # else                          #does array has same letters as @array elements?
