@@ -16,12 +16,11 @@ class Anagram
     end
     else                          #does array has same letters as @array elements?
       string.collect do |element|
-        
+        element.split("").sort == element.split("").sort
         
         
       end
       
-      @array << array
     end
     
   end
