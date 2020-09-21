@@ -9,6 +9,7 @@ class Anagram
   
   def match(array)
     @array = [ ]
+    if @array.include?(array)
     @array << array
   end
   
