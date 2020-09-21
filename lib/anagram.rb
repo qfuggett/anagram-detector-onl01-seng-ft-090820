@@ -10,19 +10,20 @@ class Anagram
   end
   
   def match(array)
-    @array = [ ]
-    unless @array.include?(array)
-      @array = [ ]
-    else                          #does array has same letters as @array elements?
-      binding.pry
-      @array.collect do |element|
+    binding.pry
+    # @array = [ ]
+    # unless @array.include?(array)
+    #   @array = [ ]
+    # else                          #does array has same letters as @array elements?
+    #   binding.pry
+    #   @array.collect do |element|
         
         
         
-      end
+    #   end
       
-      @array << array
-    end
+    #   @array << array
+    # end
     
   end
   
