@@ -16,7 +16,7 @@ class Anagram
     #   @array = [ ]
     # else                          #does array has same letters as @array elements?
     #   binding.pry
-    #   @array.collect do |element|
+    #   word.collect do |element|
         
         
         
