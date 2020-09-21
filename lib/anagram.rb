@@ -1,4 +1,6 @@
 # Your code goes here!
+require 'pry'
+
 class Anagram
   attr_accessor :word, :array
   
@@ -12,7 +14,12 @@ class Anagram
     unless @array.include?(array)
       @array = [ ]
     else                          #does array has same letters as @array elements?
-      @array.each do 
+      binding.pry
+      @array.collect do |element|
+        
+        
+        
+      end
       
       @array << array
     end
