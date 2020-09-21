@@ -12,7 +12,7 @@ class Anagram
   def match(string)
     binding.pry
     # @array = [ ]
-    # unless @string.include?(word)
+    # unless @string.include?(@word)
     #   @array = [ ]
     # else                          #does array has same letters as @array elements?
     #   binding.pry
