@@ -11,7 +11,7 @@ class Anagram
   
   def match(string)
     @array = [ ]
-    unless @string.include?(@word)
+    unless string.include? @word
       @array = [ ]
     end
     # else                          #does array has same letters as @array elements?
